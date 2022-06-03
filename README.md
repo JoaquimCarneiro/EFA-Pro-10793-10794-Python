@@ -4,5 +4,4 @@
 Consolidação de exercícios
 Disciplinas:
   - 10793 - Fundamentos de Python
-  - 10794 - Programação avançada com Python do curso
-
+  - 10794 - Programação avançada com Python
