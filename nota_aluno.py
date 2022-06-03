@@ -1,4 +1,4 @@
-import verify_input
+from tui import verify_input
 
 
 def classifica_aluno():

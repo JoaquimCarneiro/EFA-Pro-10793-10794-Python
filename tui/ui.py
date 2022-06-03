@@ -1,5 +1,5 @@
 import os
-import verify_input as verifica
+from tui.verify_input import checkint
 
 
 def clearconsole():
@@ -53,7 +53,7 @@ def menu(titulostr, caracter, tamanholinha, items, msg_opcao_invalida):
     while opcao < 0 or opcao > len(items):
         if controle:
             print(msg_opcao_invalida)
-        opcao = verifica.checkint("Escolha uma opção: ", msg_opcao_invalida)
+        opcao = checkint("Escolha uma opção: ", msg_opcao_invalida)
         controle = True
     return opcao
 
